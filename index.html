@@ -1,247 +1,274 @@
-<!DOCTYPE html>
-<html lang="en">
+<script src="js/html5media.min.js"></script>
 
-<!-- Head tag -->
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--Description-->
-    
-
-    <!--Author-->
-    
-        <meta name="author" content="John Doe">
-    
-
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="Hexo"/>
-    
-
-    <!--Open Graph Description-->
-    
-
-    <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Hexo"/>
-
-    <!--Type page-->
-    
-        <meta property="og:type" content="website" />
-    
-
-    <!--Page Cover-->
-    
-
-        <meta name="twitter:card" content="summary" />
-    
-
-    <!-- Title -->
-    
-    <title>Hexo</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
-
-    <!-- Google Analytics -->
-    
-
-
-    <!-- favicon -->
-    
 	
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Chen Qian</title>
+	<meta content="Chen Qian, lovel520.github.io" name="keywords" />
+	<style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+a.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+b.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 800px;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #eee;
+}
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 700;
+}
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+}
+ul { 
+  list-style: circle;
+}
+img {
+  border: none;
+}
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+alert {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FF0000;
+}
+em, i {
+	font-style:italic;
+}
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+div.spanner {
+  clear: both;
+}
+div.paper {
+  clear: both;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+div.paper div {
+  padding-left: 230px;
+}
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 200px;
+}
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+div.paper pre {
+  font-size: 0.9em;
+}
+</style>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-
-
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45959174-3', 'wangzheallen.github.io');
+  ga('send', 'pageview');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66888300-1', 'auto');
+  ga('send', 'pageview');
+</script>
 <body>
-
-    <!-- Menu -->
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Configurable Title</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/">
-                            
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives">
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
-<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Hexo</h1>
-                    <hr class="small">
-                    <span class="subheading"></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview">
-    <a href="/2017/01/09/thomas/">
-        <h2 class="post-title">
-            thomas
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2017-01-09
-    </p>
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
+<div style="margin: 0px auto; width: 100%;">
+<img title="Chen Qian" style="float: left; padding-left: .01em; height: 140px;" src="paper/self.jpg" />
+<div style="padding-left: 10em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Chen Qian</span><br /><br/>
+<span><strong>Address</strong>: 1380 Oak Creek Drive# 206, Palo Alto, CA, United States (zipcode: 94304)</span><br />
+<span><strong>Email  </strong>: chenqianbupt@hotmail.com</span> <br /> <br/>
+<span><strong><alert>I am now looking for 17 summer software engineer internship. </alert></strong></span>
 </div>
+</div>
+</div>
+<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+
+<div style="clear: both;">
+<div class="section">
+<h2>About Me </h2>
+<div class="paper">
+I got B.E. degree of Communication Engineering in <a href='http://sice.bupt.edu.cn/tea/english/english/index.html'>School of Information and Communication Engineering</a> in Beijing University of Posts and Telecommunications (BUPT) in July, 2016.
+<br><br>
+Overal GPA: 92.1/100. Major: 94.24/100. Mathematics-related: 96.18/100
+<br> <br>
+Ever serving as a research assistant in <a href='http://www.tsinghua.edu.cn/publish/auen/index.html'>Institute of Information Processing, Department of Automation</a> at Tsinghua University under the supervision of <a href='http://www.tsinghua.edu.cn/publish/auen/1713/2011/20110520164624642817281/20110520164624642817281_.html'>Prof. Feifei Gao</a>.
+<br><br>
+I am now a first year M.S student in Stanford University majoring EE.
+	
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+  <h2>News</h2>
+  <div class="paper">
+    <ul>
+    <li> April, 2016: <i>Sensing and Recognition for Multiple Primary Power Level Scenario with Noise Uncertainty</i> accepted by IEEE Transactions on Vehicular Technology.</li>	
+    <li> October, 18th, 2015: Awarded National Scholarship for the third time for outstanding performance in school study.(<a href='activity.avi'>link</a>).</li>
+    <li> September, 7th, 2015: Paper <i>Spectrum Sensing and SNR Walls When Primary User Has Multiple Power Levels</i> accepted by <a href='http://www.ieee-iccc.org/'>IEEE/CIC ICCC 2015</a>.</li>
+    <li> May, 24th, 2015: Project <i>chip bank</i> awarded First Prize in ”Challenge Cup” Beijing College Student Curricular Academic Science
+    and Technology Works </li>
+    <li> March, 2015: Started the program GLRT based Spectrum Sensing When Primary User Has Multiple Power Levels . </li>
+    <li> October, 13th, 2014: Awarded National Scholarship for the second time for outstanding performance in school study. </li>
+   
+    </ul>
+  </div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Publications</h2>
+
+<div class="paper" id="Qiansensing"><img class="paper" src="paper/paper1.jpg" title="Spectrum Sensing And SNR Walls When Primary User Has Multiple Power Levels" />
+<div> <strong>Chen Qian</strong>, Han Qian, Feifei Gao. <strong>Spectrum Sensing and SNR Walls When Primary User Has Multiple Power Levels </strong><br />
+Accepted by: IEEE/CIC ICCC 2015. <br />
+[ <a href='paper/Spetrum sensing MPTP.pdf'>paper click here</a>  ] <br /> 
+About cognitive radio and statistical signal processing. Proposed the power recognition strategy and analyzed SNR wall phenomena in MPTP scenario with noise uncertainty.
+</div>
+<div class="spanner"></div>
+</div>
+
+<div class="paper" id="QianWCS5"><img class="paper" src="paper/paper2.png" title="Sensing and Recognition for Multiple Primary
+Power Level Scenario with Noise Uncertainty" />
+<div> <strong>Chen Qian</strong>, Feifei Gao, Han Qian <strong>Sensing and Recognition for Multiple Primary
+Power Level Scenario with Noise Uncertainty</strong><br />
+Submitted to: IEEE Transaction on Vehicular Technology (<a href='http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=25'>TVT</a>).  <br />
+[ <a href='paper/paper2.pdf'>paper click here</a>  ]  <br /> 
+Extended the research of paper <font color="blue"><i>Spectrum Sensing And SNR Walls When Primary User Has Multiple Power Levels</i></font>, analyzed abundant underlying phenomena especially power ambiguity.
+Proposed cooperative recognition to increase the sensing performance. 
+</div>
+<div class="spanner"></div>
+</div>
+
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="projects">Projects</h2>
+
+<div class="paper" id="IEVS"><img class="paper" src="projects/project1.png" title="IEVS" />
+<div><strong>Interactive Projection Screen</strong>(<a href='projects/ll.avi'>click here for video</a>)<br />
+The project turned a static projection into interactive screen owning all function of a touch screen. 
+I took the responsibility of increasing the accuracy of the system and communiation amog all modules.
+
+</div>
+<div class="spanner"></div>
+</div>
+
+<div class="paper" id="Selfbalancing"><img class="paper" src="projects/project2.jpg" title="Self" />
+<div><strong>Self-balancing Car Based on Arduino</strong>(<a href='projects/project1.avi'>click here for video</a>)<br />
+We designed a self-balancing car using Arduino programming, which resembles the popular Segway.
+I took the responsibility of realizing the speed control of it, including turning, accelerating, deceleratting and forwarding.
+
+
+</div>
+<div class="spanner"></div>
+</div>
+
+</div>
+</div>
+
+
+<div style="clear: both;">
+<div class="section"><h2>Awards</h2>
+
+<div class="paper"><strong>
+<div style="float:left;padding-left:-550px;">2015</div><br/><br/>
+<li><strong>National Schorlarship (Rank 1 of 589)</a></li>
+<li><strong>First prize in "Challenge Cup" Beijing College Student Curricular Academic Science and Technology Works (top 5% of over 1000 teams)</li>
+<li><strong>Second Prize in National English Competition for College Students (Top 1.5% of 2500)</li></br>
+<div style="float:left;padding-left:-550px;">2014</div><br/></br>
+<li><strong>National Scholarship(Rank 6 of 600)</li>
+<li><strong>Second Prize in National English Competition for College Students (Top 1.5% of 2700)</li>
+<li><strong>National first prize on "CCTV STAR OF OUTLOOK English Talent Competition" (Rank 1 of 123) </li></br>
+<div style="float:left;padding-left:-550px;">2013</div><br/></br>
+<li><strong>National Scholarship (Rank 3 of 597)</li>
+<li>Second prize in Beijing Division on "National Undergraduate Mathematical Contest" (Top 7% of 30,000)</li>
+
+</div>
+</div>
+</div>
+
+
+<div style="clear:both;">
+<p align="right"><font size="5">Last Updated on 20th Oct, 2015</a></font></p>
+<p align="right"><font size="5">Published with <a href='https://pages.github.com/'>GitHub Pages</a></font></p>
+</div>
+
 <hr>
-            
-                <div class="post-preview">
-    <a href="/2017/01/08/hello-world/">
-        <h2 class="post-title">
-            Hello World
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2017-01-08
-    </p>
-</div>
-<hr>
-            
-
-            <ul class="pager">
-    
-    
-</ul>
-        </div>
-    </div>
-</div>
-
-
-
-    <!-- Footer -->
-    <hr />
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
-
-                    
-
-                    
-                        <li>
-                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-
-                    
-
-                    
-                </ul>
-                <p class="copyright text-muted">&copy; 2017 John Doe<br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-    <!-- After footer scripts -->
-    
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
-<!-- Disqus Comments -->
-
-
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://lovel520.github.io/', 'user' : 1168199, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2015-10-21', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/33511d347"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/luckylemon6464.github.io--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
 </body>
-
 </html>
